@@ -14,6 +14,8 @@ export const Output: React.VFC<Props> = props => {
     const lower = createLower(num)
     return (
         <>
+            出力：
+            <br />
             <CustomHoge>
                 {upper}
                 <br />

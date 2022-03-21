@@ -13,6 +13,7 @@ export const SuddenDeath: React.VFC = () => {
             <Globalstyle />
             <h1>突然の死</h1>
             <InputForm value={value} onChange={onChange} />
+            <br />
             <Output value={value} />
         </>
     )
