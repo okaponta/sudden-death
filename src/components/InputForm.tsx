@@ -15,9 +15,3 @@ export const InputForm: React.VFC<Props> = props => {
         </>
     );
 };
-
-export const InputWrapper = styled.div`
-position: relative;
-width: 80%;
-margin: 40px 3%;
-`;
